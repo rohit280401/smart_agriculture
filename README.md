@@ -35,7 +35,7 @@ using sensors connected to the field node.
 Each crop has its own environmental requirements stored inside
 
 ```
-crop_profiles.json
+DATA/crop_profiles.json
 ```
 
 The edge node compares live sensor values with these thresholds before transmitting data.
