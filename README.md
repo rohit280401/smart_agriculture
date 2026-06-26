@@ -289,7 +289,7 @@ After=network.target
 Type=simple
 User=pi
 WorkingDirectory=/home/pi/SmartFarm
-ExecStart=/usr/bin/python3 /home/pi/SmartFarm/gateway_code.py
+ExecStart=/usr/bin/python3 /home/pi/SmartFarm/gateway_code.py //path of ur own file
 Restart=always
 RestartSec=5
 
