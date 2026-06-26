@@ -121,7 +121,7 @@ Normal Conditions              Abnormal Conditions
         │                              │
         └───────────────┬──────────────┘
                         │
-                LoRa / Serial
+                      LoRa
                         │
                  Gateway Server
                         │
@@ -169,17 +169,20 @@ Normal Conditions              Abnormal Conditions
 
 ```
 .
-├── app.py
+├── WEBPAGE
+│   ├── app.py
+│   └── templates
+│       └── index.html
+│
 ├── gateway_code.py
 ├── Field_code.py
-├── crop_profiles.json
-├── model.ipynb
-├── fertilizer_model.joblib
-├── data_scaler.joblib
-├── label_encoder.joblib
-├── Fertilizer Prediction.csv
-└── templates
-    └── index.html
+│
+├── DATA
+│   ├── crop_profiles.json
+│   └── Fertilizer Prediction.csv
+│
+└── MODEL
+    └── model.ipynb
 ```
 
 ---
